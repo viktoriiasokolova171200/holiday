@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang = "ru">
+    <head>
+        <meta charset="utf-8">
+        <title>lab_3</title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+         body{
+             background-color: rgb(67, 212, 193);
+         }
+        </style>
+             <script type="text/javascript"  src= "script.js"></script>
+                </head>
+<body>
+    <div class="drop">
+        <label for="format" id="label1">Формат даты строго ГГГГ-ММ-ДД!</label>
+     </div>
+      
+      <div class="paramsVacation">
+       <label for="start" id="label1"> Начало</label>
+      <input type="text" id="start">
+      <label for="end" id="label2"> Конец</label>
+      <input type="text" id="end"> 
+      <label for="duration" id="label3"> Продолжительность</label>
+      <input type="text" id="duration">  
+      <input type="button" onclick="count()" value="Рассчитать" class = "count">
+      </div>
+      <div class="result">
+        <label for="text" id="resultText"> Итого: </label>
+      </div>
+      <div class="addHolidays">
+        <label for="text" id="label4"> Добавить праздник: </label>
+       <input type="text" id="holiday">
+       <input type="button" onclick="addHoliday()" value="Добавить" class = "count">
+       </div>
+
+       <div class="holidays">
+        <label for="text" id="holidayString"> Праздники: </label>
+      </div>
+      
+    </body>
